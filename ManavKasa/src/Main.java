@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double elma,armut,domates,muz,patlican,tutar;
+        double elma, armut, domates, muz, patlican, tutar;
 
         System.out.print("Kaç kilo armut aldınız : ");
         armut = input.nextDouble();
@@ -21,8 +21,10 @@ public class Main {
         System.out.print("Kaç kilo patlıcan aldınız : ");
         patlican = input.nextDouble();
 
-        tutar = (armut*2.14)+(elma*3.67)+(domates*1.11)+(muz*0.95)+(patlican*5);
+        tutar = (armut * 2.14) + (elma * 3.67) + (domates * 1.11) + (muz * 0.95) + (patlican * 5);
 
         System.out.println("Toplam tutar : " + tutar);
+
+
     }
 }
